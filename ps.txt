@@ -4,25 +4,45 @@ CREATE PARTITION SCHEME PS_MonthWise
 AS PARTITION PF_MonthlyPartition
 TO
 (
-	'table1_012021','table1_022021','table1_032021',
-	'table1_042021','table1_052021','table1_062021',
-	'table1_072021','table1_082021','table1_092021',
-	'table1_102021','table1_112021','table1_122021',
+	'namatable_202101','namatable_202102','namatable_202103',
+	'namatable_202104','namatable_202105','namatable_202106',
+	'namatable_202107','namatable_202108','namatable_202109',
+	'namatable_202110','namatable_202111','namatable_202112',
 	
-	'table1_012022','table1_022022','table1_032022',
-	'table1_042022','table1_052022','table1_062022',
-	'table1_072022','table1_082022','table1_092022',
-	'table1_102022','table1_112022','table1_122022',
+	'namatable_202201','namatable_202202','namatable_202203',
+	'namatable_202204','namatable_202205','namatable_202206',
+	'namatable_202207','namatable_202208','namatable_202209',
+	'namatable_202210','namatable_202211','namatable_202212',
 	
-	'table1_012023','table1_022023','table1_032023',
-	'table1_042023','table1_052023','table1_062023',
-	'table1_072023','table1_082023','table1_092023',
-	'table1_102023','table1_112023','table1_122023',
+	'namatable_202301','namatable_202302','namatable_202303',
+	'namatable_202304','namatable_202305','namatable_202306',
+	'namatable_202307','namatable_202308','namatable_202309',
+	'namatable_202310','namatable_202311','namatable_202312',
 	
-	'table1_012024','table1_022024','table1_032024',
-	'table1_042024','table1_052024','table1_062024',
-	'table1_072024','table1_082024','table1_092024',
-	'table1_102024','table1_112024','table1_122024',
+	'namatable_202401','namatable_202402','namatable_202403',
+	'namatable_202404','namatable_202405','namatable_202406',
+	'namatable_202407','namatable_202408','namatable_202409',
+	'namatable_202410','namatable_202411','namatable_202412',
+	
+	'namatable_202501','namatable_202502','namatable_202503',
+	'namatable_202504','namatable_202505','namatable_202506',
+	'namatable_202507','namatable_202508','namatable_202509',
+	'namatable_202510','namatable_202511','namatable_202512',
+	
+	'namatable_202601','namatable_202602','namatable_202603',
+	'namatable_202604','namatable_202605','namatable_202606',
+	'namatable_202607','namatable_202608','namatable_202609',
+	'namatable_202610','namatable_202611','namatable_202612',
+	
+	'namatable_202701','namatable_202702','namatable_202703',
+	'namatable_202704','namatable_202705','namatable_202706',
+	'namatable_202707','namatable_202708','namatable_202709',
+	'namatable_202710','namatable_202711','namatable_202712',
+	
+	'namatable_202801','namatable_202802','namatable_202803',
+	'namatable_202804','namatable_202805','namatable_202806',
+	'namatable_202807','namatable_202808','namatable_202809',
+	'namatable_202810','namatable_202811','namatable_202812',
 	
 	'Primary'
 );

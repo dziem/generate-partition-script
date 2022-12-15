@@ -10,7 +10,7 @@ for i in tables:
         for k in range (1, 13):
             f.write("ALTER DATABASE " + databaseName)
             f.write("\n")
-            f.write("ADD FILEGROUP " + i + "_" + str(k).zfill(2) + str(j))
+            f.write("ADD FILEGROUP " + i + "_" + str(j) + str(k).zfill(2))
             f.write("\n")
             f.write("GO")
             f.write("\n")

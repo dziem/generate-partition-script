@@ -9,7 +9,7 @@ f = open("file.txt", "w")
 for i in tables:
     for j in range(yearStart, yearEnd + 1):
         for k in range (1, 13):
-            groupName = i + "_" + str(k).zfill(2) + str(j)
+            groupName = i + "_" + str(j) + str(k).zfill(2)
             f.write("ALTER DATABASE " + databaseName)
             f.write("\n")
             f.write("ADD FILE")

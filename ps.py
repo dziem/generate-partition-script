@@ -1,9 +1,9 @@
 databaseName = 'NBFI'
 yearStart = 2021
-yearEnd = 2024
+yearEnd = 2028
 partitionName = "PS_MonthWise"
 partitionAlias = "PF_MonthlyPartition"
-tableName = "table1"
+tableName = "namatable"
 
 f = open("ps.txt", "w")
 
@@ -25,7 +25,7 @@ for j in range(yearStart, yearEnd + 1):
     f.write("\t")
     for k in range (1, 13):
         counter += 1
-        groupName = tableName + "_" + str(k).zfill(2) + str(j)
+        groupName = tableName + "_" + str(j) + str(k).zfill(2) 
         f.write("'" + groupName + "',")
         if counter == 3:
             counter = 0
