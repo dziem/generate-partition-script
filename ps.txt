@@ -1,0 +1,28 @@
+USE NBFI
+GO
+CREATE PARTITION SCHEME PS_MonthWise
+AS PARTITION PF_MonthlyPartition
+TO
+(
+	'table1_012021','table1_022021','table1_032021',
+	'table1_042021','table1_052021','table1_062021',
+	'table1_072021','table1_082021','table1_092021',
+	'table1_102021','table1_112021','table1_122021',
+	
+	'table1_012022','table1_022022','table1_032022',
+	'table1_042022','table1_052022','table1_062022',
+	'table1_072022','table1_082022','table1_092022',
+	'table1_102022','table1_112022','table1_122022',
+	
+	'table1_012023','table1_022023','table1_032023',
+	'table1_042023','table1_052023','table1_062023',
+	'table1_072023','table1_082023','table1_092023',
+	'table1_102023','table1_112023','table1_122023',
+	
+	'table1_012024','table1_022024','table1_032024',
+	'table1_042024','table1_052024','table1_062024',
+	'table1_072024','table1_082024','table1_092024',
+	'table1_102024','table1_112024','table1_122024',
+	
+	'Primary'
+);
