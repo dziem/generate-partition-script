@@ -24,7 +24,7 @@ for i in tables:
             f.write("\n")
             f.write("\tMAXSIZE = UNLIMITED,")
             f.write("\n")
-            f.write("\tFILEGROWTH = 10000 MB")
+            f.write("\tFILEGROWTH = 1000 MB")
             f.write("\n")
             f.write(") TO FILEGROUP " + groupName)
             f.write("\n")
