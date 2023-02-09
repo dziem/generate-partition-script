@@ -1,0 +1,36 @@
+CREATE INDEX [IX_PP_Transaction_RincianKantorSelainKC_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianKantorSelainKC_Individu] ([Periode],[EntityID])
+
+CREATE INDEX [IX_PP_Transaction_RincianKC_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianKC_Individu] ([Periode],[EntityID])
+
+CREATE INDEX [IX_PP_Transaction_RincianKepengurusan_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianKepengurusan_Individu] ([Periode],[EntityID])
+
+CREATE INDEX [IX_PP_Transaction_RincianPembiayaanKredit_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianPembiayaanKredit_Individu] ([Periode],[EntityID])
+
+CREATE INDEX [IX_PP_Transaction_RincianPemegangSaham_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianPemegangSaham_Individu] ([Periode],[EntityID])
+
+CREATE INDEX [IX_PP_Transaction_RincianPihakTerkait_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianPihakTerkait_Individu] ([Periode],[EntityID])
+
+CREATE INDEX [IX_PP_Transaction_RincianPinjamanDiterima_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianPinjamanDiterima_Individu] ([Periode],[EntityID])
+
+CREATE INDEX [IX_PP_Transaction_RincianRupaRupaAset_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianRupaRupaAset_Individu] ([Periode],[EntityID])
+
+CREATE INDEX [IX_PP_Transaction_RincianRupaRupaLiabilitas_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianRupaRupaLiabilitas_Individu] ([Periode],[EntityID])
+
+CREATE INDEX [IX_PP_Transaction_RincianSBYangDimiliki_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianSBYangDimiliki_Individu] ([Periode],[EntityID])
+
+CREATE INDEX [IX_PP_Transaction_RincianSBYangDiterbitkan_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianSBYangDiterbitkan_Individu] ([Periode],[EntityID])
+
+CREATE INDEX [IX_PP_Transaction_RincianTenagaKerjaAsing_Individu_Satu]
+ON [NBFI_ALK].[Datamart].[PP_Transaction_RincianTenagaKerjaAsing_Individu] ([Periode],[EntityID])
+
